@@ -1,0 +1,33 @@
+
+
+#Clock
+NET "clk" LOC = "E3" | IOSTANDARD = "LVCMOS33";
+NET "reset" LOC = "E16" | IOSTANDARD = "LVCMOS33"; // btn0 reset
+
+
+#Entradas	
+#NET "rx"			LOC = "F3"	| IOSTANDARD = "LVCMOS33"; #Jd<7>
+NET "rx"			LOC = "G6"	| IOSTANDARD = "LVCMOS33"; #Jc<7>
+
+#salidas
+#NET "motor"			LOC = "G2"	| IOSTANDARD = "LVCMOS33";		#Jd<6> 
+#NET "bomba"			LOC = "G4"	| IOSTANDARD = "LVCMOS33";		#Jd<5>
+#NET "valvula"		LOC = "H2"	| IOSTANDARD = "LVCMOS33";		#Jd<4>
+
+
+NET "motor"			LOC = "J2"	| IOSTANDARD = "LVCMOS33";		#Jc<6> 
+NET "bomba"			LOC = "E6"  | IOSTANDARD = "LVCMOS33";		#Jc<5>
+NET "valvula"		LOC = "K1"	| IOSTANDARD = "LVCMOS33";		#Jc<4>
+
+
+
+
+## LEDs DDR
+NET "led<0>" LOC = "T8" | IOSTANDARD = "LVCMOS33"; // LD0
+NET "led<1>" LOC = "V9" | IOSTANDARD = "LVCMOS33"; // LD1
+NET "led<2>" LOC = "R8" | IOSTANDARD = "LVCMOS33"; // LD2
+NET "led<3>" LOC = "T6" | IOSTANDARD = "LVCMOS33"; // LD3
+NET "led<4>" LOC = "T5" | IOSTANDARD = "LVCMOS33"; // LD4
+NET "led<5>" LOC = "T4" | IOSTANDARD = "LVCMOS33"; // LD5
+NET "led<6>" LOC = "U7" | IOSTANDARD = "LVCMOS33"; // LD6
+NET "led<7>" LOC = "U6" | IOSTANDARD = "LVCMOS33"; // LD7
